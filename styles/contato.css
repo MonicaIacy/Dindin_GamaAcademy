@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/***** HEADER *****/
+
+header {
+  width: 100%;
+  background-color: #2E948A;
+  display: flex;
+  justify-content: space-between;
+  height: 7.3rem;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  margin: 1.25rem 0 1.25rem 5.12rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-right: 6.44rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FDFDFD;
+  margin-left: 2.62rem;
+}
+
+/***** FORM *****/
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 10rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #ff4081;
+  margin-bottom: 2.75rem;
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: .44rem 1.25rem;
+  font-size: 1rem;
+  line-height: 1.37rem;
+}
+
+textarea {
+  margin-bottom: 1rem;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: .44rem 1.25rem;
+  font-size: 1rem;
+  line-height: 1.37rem;
+}
+
+#btn {
+  background-color: #ff4081;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: .44rem 2.19rem;
+}
+
+main img {
+  margin-left: 12.5rem;
+}
+
+/***** FOOTER *****/
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #419488;
+  padding: 3.125rem 8rem 2.31rem;
+}
+
+footer ul li {
+  list-style: none;
+  padding: .3rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+footer button {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  margin-bottom: .81rem;
+}
+
+footer button a {
+  border: 2px solid #fff;
+  border-radius: 62px;
+  padding: .87rem 0;
+  width: 18.75rem;
+}
+
+/***** RESPONSIVE *****/
+
+@media (max-width: 920px) {
+  section {
+    display: block;
+  }
+
+  form {
+    margin-bottom: 5rem;
+  }
+
+  section img {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  footer {
+    padding: 2rem;
+  }
+
+  footer img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header img {
+    margin: 2rem 3rem;
+    width: 7rem;
+  }
+
+  nav ul {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin: 0 3rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  nav ul li {
+    padding: .2rem;
+  }
+
+  nav ul li a {
+    margin: 0;
+  }
+
+  section {
+    padding: 5rem 2rem;
+  }
+
+  input {
+    max-width: 20rem;
+  }
+
+  textarea {
+    max-width: 20rem;
+  }
+
+  section img {
+    max-width: 20rem;
+  }
+
+  footer {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  footer ul {
+    display: none;
+  }
+
+  footer img {
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  footer button a {
+    width: 15rem;
+    font-size: 1rem;
+  }
+}

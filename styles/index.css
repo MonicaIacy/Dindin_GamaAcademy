@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/***** HEADER *****/
+
+header {
+  width: 100%;
+  background-color: #2E948A;
+  display: flex;
+  justify-content: space-between;
+  height: 7.3rem;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  margin: 1.25rem 0 1.25rem 5.12rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-right: 6.44rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FDFDFD;
+  margin-left: 2.62rem;
+}
+
+/***** BANNER SECTION *****/
+
+#banner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8.12rem;
+}
+
+#banner div {
+  margin-left: 12rem;
+}
+
+#banner h1 {
+  width: 30.5rem;
+  font-weight: 700;
+  font-size: 3.75rem;
+  color: #FF4081;
+  margin-bottom: 1.19rem;
+}
+
+#banner p {
+  width: 23.12rem;
+  margin-bottom: 2.34rem;
+  color: #555555;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+#banner a {
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #FF4081;
+  text-decoration: none;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  padding: .53rem 1.62rem;
+}
+
+#banner img {
+  margin-right: 12.9rem;
+  margin-bottom: 4.12rem;
+}
+
+/***** COURSES SECTION *****/
+
+#courses {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #F7F7F7;
+}
+
+.course-card {
+  max-width: 21.5rem;
+  margin: 6.8rem 2.44rem;
+}
+
+.course-card img {
+  height: 16.9rem;
+  margin-bottom: 2.7rem;
+}
+
+.course-card h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #FF4081;
+  margin-bottom: 1.44rem;
+}
+
+.course-card p {
+  font-weight: 300;
+  font-size: 1.06rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2.56rem;
+}
+
+.course-card a {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF4081;
+  padding: .94rem 3.125rem;
+  border-radius: 62px;
+}
+
+/***** TESTIMONIALS SECTION *****/
+
+#testimonials h2 {
+  font-weight: 700;
+  font-size: 2.31rem;
+  color: #009688;
+  margin: 7.44rem 0 5rem 8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5.37rem;
+  margin-left: 8rem;
+  margin-bottom: 8rem;
+}
+
+.testimonial-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 32rem;
+}
+
+.testimonial-card cite {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin-left: 2.31rem;
+}
+
+.testimonial-card cite span {
+  font-weight: 500;
+}
+
+/***** POSTS SECTION *****/
+
+#posts {
+  background-color: #F7F7F7;
+  padding-bottom: 3.9rem;
+}
+
+#posts h2 {
+  font-size: 2.31rem;
+  font-weight: 700;
+  color: #009688;
+  margin: 0 0 4.56rem 8rem;
+  padding-top: 5.7rem;
+}
+
+#post-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 8rem 6.31rem;
+  gap: 5rem;
+}
+
+.post-card {
+  width: 25rem;
+}
+
+.post-card h3 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #009688;
+}
+
+.post-card p {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.img-content {
+  width: 25rem;
+  height: 15rem;
+  background-color: #C4C4C4;
+  margin-bottom: .7rem;
+}
+
+button {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+}
+
+#posts a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #FF4081;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  padding: .62rem 2.56rem;
+}
+
+/***** FOOTER *****/
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #419488;
+  padding: 3.125rem 8rem 2.31rem;
+}
+
+footer ul li {
+  list-style: none;
+  padding: .3rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+footer button {
+  background-color: transparent;
+  margin-bottom: .81rem;
+}
+
+footer button a {
+  border: 2px solid #fff;
+  border-radius: 62px;
+  padding: .87rem 0;
+  width: 18.75rem;
+}
+
+/***** RESPONSIVE *****/
+
+@media (max-width: 920px) {
+  #banner {
+    display: block;
+    text-align: center;
+  }
+
+  #banner div {
+    padding-bottom: 5rem;
+    margin: 0 auto;
+  }
+
+  #banner h1 {
+    width: 100%;
+  }
+
+  #banner p {
+    width: 100%;
+  }
+
+  #banner img {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  #courses {
+    display: block;
+    padding-bottom: 5rem;
+  }
+
+  .course-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .course-card img {
+    width: 100%;
+    height: 100%;
+    padding-top: 7rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #post-cards {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .post-card {
+    width: 30rem;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .img-content {
+    width: 100%;
+    height: 17rem;
+  }
+
+  .post-card p {
+    padding-bottom: 5rem;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+
+  footer img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header img {
+    margin: 2rem 3rem;
+    width: 7rem;
+  }
+
+  nav ul {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin: 0 3rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  nav ul li {
+    padding: .2rem;
+  }
+
+  nav ul li a {
+    margin: 0;
+  }
+  
+  #banner {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  #banner div {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  #banner h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  #banner p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  #banner a {
+    font-size: 1rem;
+  }
+
+  #banner img {
+    width: 15rem;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+  }
+
+  #courses {
+    display: block;
+    padding-bottom: 5rem;
+  }
+
+  .course-card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4rem;
+  }
+
+  .course-card img {
+    width: 100%;
+    max-width: 15rem;
+    height: 100%;
+    padding-top: 7rem;
+  }
+
+  .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .course-card a {
+    font-size: 1rem;
+  }
+
+  #testimonials h2 {
+    font-size: 2rem;
+    margin-left: 4.5rem;
+    margin-top: 4rem;
+  }
+
+  .testimonial-card {
+    display: block;
+    text-align: justify;
+  }
+
+  .testimonial-card img {
+    margin-bottom: 3rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 4rem 4rem;
+  }
+
+  #posts h2 {
+    font-size: 1.7rem;
+    margin: 4rem;
+  }
+
+  #post-cards {
+    margin: 0 auto;
+  }
+
+  .post-card {
+    width: 15rem;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .img-content {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .post-card p {
+    padding-bottom: 5rem;
+  }
+
+  #posts a {
+    font-size: 1rem;
+    padding: .62rem 2rem;
+  }
+
+  footer {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  footer ul {
+    display: none;
+  }
+
+  footer img {
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  footer button a {
+    width: 15rem;
+    font-size: 1rem;
+  }
+}
