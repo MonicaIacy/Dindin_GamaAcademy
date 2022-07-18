@@ -47,6 +47,7 @@ h1 {
   text-align: center;
   color: #ff4081;
   padding: 6.9rem 12.75rem .6rem;
+  margin: 0 auto;
 }
 
 #date {
@@ -71,7 +72,7 @@ article {
   max-width: 93.75rem;
   position: relative;
   justify-content: center;
-  margin: 6.9rem 12.75rem; 
+  margin: 6.9rem auto 0; 
 }
 
 article p {
@@ -79,13 +80,16 @@ article p {
   font-weight: 300;
   font-size: 1.125rem;
   margin-bottom: 1.56rem;
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 article h2 {
   font-weight: 500;
   font-size: 1.62rem;
   color: #419488;
-  margin: 4.7rem 0 1.56rem;
+  margin: 4.7rem auto 1.56rem;
+  padding: 0 4rem;
 }
 
 /***** COURSES SECTION *****/
@@ -105,6 +109,7 @@ article h2 {
 
 #courses-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -116,6 +121,7 @@ article h2 {
 .course-card img {
   height: 16.8rem;
   margin-bottom: 2.7rem;
+  margin: 0 auto;
 }
 
 .course-card h3 {
@@ -200,7 +206,7 @@ footer button a {
   }
 
   #courses-cards {
-    display: block;
+    margin: 0 auto;
     padding-bottom: 5rem;
   }
 
@@ -224,7 +230,7 @@ footer button a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width:690px) {
   header img {
     margin: 2rem 3rem;
     width: 7rem;

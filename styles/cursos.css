@@ -178,7 +178,7 @@ footer button a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width:690px) {
   header img {
     margin: 2rem 3rem;
     width: 7rem;

@@ -43,8 +43,9 @@ nav ul li a {
 
 #banner {
   display: flex;
-  justify-content: space-around;
-  margin: 0 13.75rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 #banner div {
@@ -79,9 +80,10 @@ h1 {
 
 .video-card {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   border-bottom: 0.3rem solid #C4C4C4;
-  margin: 0 6.12rem 4.69rem;
+  margin: 0 auto 4.69rem;
   padding: 0 4.56rem 4.56rem;
 }
 
@@ -90,12 +92,14 @@ i {
   font-size: 5.6rem;
   border: 0.3rem solid #8E8E8E;
   padding: 5.37rem 11.6rem;
-  margin-right: 4.75rem;
+  margin: 0 auto;
   cursor: pointer;
 }
 
 .video-content {
-  width: 31.31rem;
+  width: 100%;
+  max-width: 31.31rem;
+  margin: 3rem auto 0;
 }
 
 h2 {
@@ -153,7 +157,6 @@ footer button a {
 
 @media (max-width: 920px) {
   #banner {
-    display: block;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
@@ -202,7 +205,7 @@ footer button a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width:690px) {
   header img {
     margin: 2rem 3rem;
     width: 7rem;

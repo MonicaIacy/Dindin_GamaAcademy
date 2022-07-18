@@ -45,7 +45,7 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 13.75rem;
+  margin: 0 auto;
 }
 
 #banner div {
@@ -72,10 +72,10 @@ h1 {
 /***** POSTS SECTION *****/
 
 #posts-list {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   gap: 7.5rem;
   padding: 6.8rem 6.25rem;
   background-color: #E5E5E5;
@@ -151,8 +151,6 @@ footer button a {
     margin: 0 auto;
   }
   #posts-list {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     padding: 6rem 0;
     gap: 4rem;
   }
@@ -174,7 +172,7 @@ footer button a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width:690px) {
   header img {
     margin: 2rem 3rem;
     width: 7rem;
