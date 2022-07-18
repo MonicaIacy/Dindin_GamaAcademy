@@ -48,7 +48,6 @@ nav ul li a {
 /***** FORM *****/
 
 section {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -141,10 +140,6 @@ footer button a {
 /***** RESPONSIVE *****/
 
 @media (max-width: 920px) {
-  section {
-    display: block;
-  }
-
   form {
     margin-bottom: 5rem;
   }
@@ -168,6 +163,7 @@ footer button a {
   header img {
     margin: 2rem 3rem;
     width: 7rem;
+    padding: 0;
   }
 
   nav ul {
@@ -189,6 +185,9 @@ footer button a {
 
   section {
     padding: 5rem 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
   }
 
   input {
@@ -201,6 +200,7 @@ footer button a {
 
   section img {
     max-width: 20rem;
+    text-align: center;
   }
 
   footer {
