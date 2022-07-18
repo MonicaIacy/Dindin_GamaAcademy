@@ -49,12 +49,13 @@ nav ul li a {
 
 #banner {
   display: flex;
-  justify-content: space-around;
-  padding-top: 8.12rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 8.12rem 2rem 0;
 }
 
 #banner div {
-  margin-left: 12rem;
+  margin: 0 auto 4rem;
 }
 
 #banner h1 {
@@ -84,14 +85,15 @@ nav ul li a {
 }
 
 #banner img {
-  margin-right: 12.9rem;
-  margin-bottom: 4.12rem;
+  width: 40%;
+  margin: 0 auto 4.12rem;
 }
 
 /***** COURSES SECTION *****/
 
 #courses {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
   background-color: #F7F7F7;
@@ -150,6 +152,7 @@ nav ul li a {
   gap: 5.37rem;
   margin-left: 8rem;
   margin-bottom: 8rem;
+  margin: 0 8rem 8rem;
 }
 
 .testimonial-card {
@@ -188,7 +191,7 @@ nav ul li a {
 #post-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 8rem 6.31rem;
   gap: 5rem;
 }
@@ -271,7 +274,6 @@ footer button a {
 
 @media (max-width: 920px) {
   #banner {
-    display: block;
     text-align: center;
   }
 
@@ -374,7 +376,6 @@ footer button a {
   }
   
   #banner {
-    display: block;
     text-align: center;
     padding-top: 2rem;
   }
