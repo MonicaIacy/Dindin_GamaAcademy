@@ -5,6 +5,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+html {
+  min-width: 375px;
+}
+
 /***** HEADER *****/
 
 header {
@@ -17,7 +21,9 @@ header {
 }
 
 header img {
-  margin: 1.25rem 0 1.25rem 5.12rem;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1rem 0 0 2rem;
 }
 
 nav {
