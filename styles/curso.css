@@ -6,7 +6,7 @@
 }
 
 html {
-  min-width: 375px;
+  min-width: 370px;
 }
 
 /***** HEADER *****/
@@ -128,7 +128,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #419488;
-  padding: 3.125rem 8rem 2.31rem;
+  padding: 3.125rem 4rem 2.31rem;
 }
 
 footer ul li {
@@ -213,7 +213,7 @@ footer button a {
 
 @media (max-width:690px) {
   header img {
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
     width: 7rem;
     padding: 0;
   }
