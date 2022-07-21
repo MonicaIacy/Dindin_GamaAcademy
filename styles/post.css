@@ -5,46 +5,6 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-html {
-  min-width: 370px;
-}
-
-/***** HEADER *****/
-
-header {
-  width: 100%;
-  background-color: #2E948A;
-  display: flex;
-  justify-content: space-between;
-  height: 7.3rem;
-  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-}
-
-header img {
-  margin: 0 auto;
-  align-items: center;
-  padding: 1rem 0 0 2rem;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-right: 6.44rem;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #FDFDFD;
-  margin-left: 2.62rem;
-}
-
 /***** ARTICLE SECTION *****/
 
 h1 {
@@ -52,7 +12,6 @@ h1 {
   font-size: 3.125rem;
   text-align: center;
   color: #ff4081;
-  padding: 6.9rem 12.75rem .6rem;
   margin: 0 auto;
 }
 
@@ -64,14 +23,18 @@ h1 {
   margin-bottom: 4.6rem;
 }
 
-#img-content {
-  background-color: #C4C4C4;
-  max-width: 64.5rem;
-  height: 29rem;
+#post {
+  padding: 5rem 10rem 0;
+  justify-content: center;
+  margin: 0 auto;
   position: relative;
   text-align: center;
-  justify-content: center;
-  margin: 0 auto 4.6rem;
+}
+
+#post img {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 article {
@@ -81,22 +44,22 @@ article {
   margin: 6.9rem auto 0; 
 }
 
+article h2 {
+  font-weight: 500;
+  font-size: 1.62rem;
+  color: #419488;
+  margin: 4.7rem auto 1.56rem;
+  text-align: left;
+}
+
 article p {
   text-align: justify;
   font-weight: 300;
   font-size: 1.125rem;
   margin-bottom: 1.56rem;
   margin: 0 auto;
-  padding: 0 4rem;
 }
 
-article h2 {
-  font-weight: 500;
-  font-size: 1.62rem;
-  color: #419488;
-  margin: 4.7rem auto 1.56rem;
-  padding: 0 4rem;
-}
 
 /***** COURSES SECTION *****/
 
@@ -157,58 +120,15 @@ article h2 {
   border-radius: 62px;
 }
 
-/***** FOOTER *****/
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #419488;
-  padding: 3.125rem 4rem 2.31rem;
-}
-
-footer ul li {
-  list-style: none;
-  padding: .3rem;
-}
-
-footer a {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #fff;
-}
-
-footer button {
-  display: flex;
-  position: relative;
-  margin: 0 auto;
-  border: none;
-  background-color: transparent;
-  margin-bottom: .81rem;
-}
-
-footer button a {
-  border: 2px solid #fff;
-  border-radius: 62px;
-  padding: .87rem 0;
-  width: 18.75rem;
-}
-
 /***** RESPONSIVE *****/
 
 @media (max-width: 920px) {
   h1 {
-    padding: 4rem 4rem 1rem;
+    padding-bottom: 1rem;
   }
 
-  article {
-    margin: 0 4rem;
-  }
-
-  article h2 {
-    padding: 0 4rem;
+  #post {
+    padding: 3rem 3rem 0;
   }
 
   #courses h2 {
@@ -228,62 +148,21 @@ footer button a {
   .course-card img {
     padding-top: 7rem;
   }
-
-  footer {
-    padding: 2rem;
-  }
-
-  footer img {
-    width: 10rem;
-  }
 }
 
-@media (max-width:690px) {
-  header img {
-    margin: 2rem 2rem;
-    width: 7rem;
-    padding: 0;
-  }
-
-  nav ul {
-    display: block;
-    justify-content: center;
-    position: relative;
-    margin: 0 3rem;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  nav ul li {
-    padding: .2rem;
-  }
-
-  nav ul li a {
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 2rem;
-    padding: 4rem 2rem 2rem;
-  }
-
-  article h2 {
-    padding: 0;
+@media (max-width: 690px) {
+  #post {
+    padding: 4rem 2rem 0;
   }
 
   article {
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 4rem auto;
   }
 
   article p {
     padding: 0;
     margin: 0 auto;
   }
-
-  /* .img-content {
-  
-  } */
 
   #courses-cards {
     display: block;
@@ -310,26 +189,5 @@ footer button a {
   .course-card a {
     font-size: 1rem;
   }
-
-  footer {
-    display: block;
-    padding: 2rem;
-    text-align: center;
-  }
-
-  footer ul {
-    display: none;
-  }
-
-  footer img {
-    width: 15rem;
-    margin-bottom: 2rem;
-  }
-
-  footer button a {
-    width: 15rem;
-    font-size: 1rem;
-  }
-  
 }
 

@@ -5,46 +5,6 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-html {
-  min-width: 370px;
-}
-
-/***** HEADER *****/
-
-header {
-  width: 100%;
-  background-color: #2E948A;
-  display: flex;
-  justify-content: space-between;
-  height: 7.3rem;
-  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-}
-
-header img {
-  margin: 0 auto;
-  align-items: center;
-  padding: 1rem 0 0 2rem;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-right: 6.44rem;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #FDFDFD;
-  margin-left: 2.62rem;
-}
-
 /***** BANNER SECTION *****/
 
 #banner {
@@ -93,18 +53,14 @@ h1 {
   padding: 0 4.56rem 4.56rem;
 }
 
-i {
-  color: #8E8E8E;
-  font-size: 5.6rem;
-  border: 0.3rem solid #8E8E8E;
-  padding: 5.37rem 11.6rem;
+iframe {
+  max-width: 100%;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .video-content {
   width: 100%;
-  max-width: 31.31rem;
+  max-width: 35rem;
   margin: 3rem auto 0;
 }
 
@@ -120,48 +76,10 @@ h2 {
   font-size: 1.25rem;
 }
 
-/***** FOOTER *****/
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #419488;
-  padding: 3.125rem 4rem 2.31rem;
-}
-
-footer ul li {
-  list-style: none;
-  padding: .3rem;
-}
-
-footer a {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #fff;
-}
-
-footer button {
-  display: flex;
-  position: relative;
-  margin: 0 auto;
-  border: none;
-  background-color: transparent;
-  margin-bottom: .81rem;
-}
-
-footer button a {
-  border: 2px solid #fff;
-  border-radius: 62px;
-  padding: .87rem 0;
-  width: 18.75rem;
-}
-
 /***** RESPONSIVE *****/
 
 @media (max-width: 920px) {
+  
   #banner {
     justify-content: center;
     margin: 0 auto;
@@ -188,9 +106,8 @@ footer button a {
     display: block;
   }
 
-  i {
+  iframe {
     margin: 0 auto;
-    padding: 5rem 10rem;
     margin-bottom: 2rem;
   }
 
@@ -198,43 +115,11 @@ footer button a {
     justify-content: center;
     position: relative;
     margin: 0 auto;
-    width: 26rem;
     text-align: justify;
-  }
-
-  footer {
-    padding: 2rem;
-  }
-
-  footer img {
-    width: 10rem;
   }
 }
 
-@media (max-width:690px) {
-  header img {
-    margin: 2rem 2rem;
-    width: 7rem;
-    padding: 0;
-  }
-
-  nav ul {
-    display: block;
-    justify-content: center;
-    position: relative;
-    margin: 0 3rem;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  nav ul li {
-    padding: .2rem;
-  }
-
-  nav ul li a {
-    margin: 0;
-  }
-
+@media (max-width: 690px) {
   #banner div {
     padding: 0 2rem;
     text-align: justify;
@@ -251,6 +136,7 @@ footer button a {
   }
 
   #banner img {
+    max-width: 100%;
     padding: 1.5rem;
     margin: 0 auto;
   }
@@ -259,39 +145,17 @@ footer button a {
     margin: 0 auto 5rem;
   }
 
-  i {
-    font-size: 3rem;
+  iframe {
     margin: 0 auto;
-    padding: 3rem 5.7rem;
     margin-bottom: 2rem;
+    height: auto;
   }
 
   .video-content {
-    width: 15rem;
     text-align: justify;
   }
 
   #videos p {
-    font-size: 1rem;
-  }
-
-  footer {
-    display: block;
-    padding: 2rem;
-    text-align: center;
-  }
-
-  footer ul {
-    display: none;
-  }
-
-  footer img {
-    width: 15rem;
-    margin-bottom: 2rem;
-  }
-
-  footer button a {
-    width: 15rem;
     font-size: 1rem;
   }
 }
