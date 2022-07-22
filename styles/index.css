@@ -151,9 +151,9 @@
 #post-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 1rem 6.31rem 8rem;
-  gap: 5rem;
+  row-gap: 4rem;
 }
 
 .post-card {
