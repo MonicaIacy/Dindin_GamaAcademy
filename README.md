@@ -12,7 +12,7 @@
 ## 📕 Index
 
 
-* [📋 Statement](#📋-About)
+* [📋 Statement](#📋-Statement)
 * [:computer: Preview](#:computer:-Preview)
 * [🖥 Technologies](#🖥-Technologies)
 * [📝 Author](#📝-Author)
